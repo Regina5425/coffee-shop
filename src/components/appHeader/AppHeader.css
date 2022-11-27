@@ -1,0 +1,32 @@
+.header {
+	position: absolute;
+  z-index: 100;
+	width: 100%;
+}
+
+.header-flex {
+	display: flex;
+	max-width: 1150px;
+	margin: 0 auto;
+	padding: 30px 15px;
+}
+
+.header__list {
+	display: flex;
+	align-items: center;
+}
+
+.header__item {
+	font-weight: 400;
+	font-size: 12px;
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+}
+
+.header__item:not(:last-child) {
+	margin-right: 40px;
+}
+
+.header__item:hover {
+	color: #ccc;
+}

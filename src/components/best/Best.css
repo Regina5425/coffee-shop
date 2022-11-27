@@ -1,0 +1,35 @@
+.best {
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-bottom: 110px;
+	min-height: 495px;
+	color: #000;
+	text-align: center;
+	background-image: url(../../assets/img/best-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.best__flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 800px;
+	min-height: 240px;
+}
+
+.best__title {
+	margin-bottom: 40px;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+@media (max-width: 415px) {
+	.best__flex {
+		flex-direction: column;
+		gap: 20px;
+	}
+}

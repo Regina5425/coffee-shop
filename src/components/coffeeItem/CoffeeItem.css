@@ -1,0 +1,38 @@
+.coffee-item {
+	padding: 30px 25px;
+	border: none;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+	color: #000;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.coffee-item:hover {
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.coffee-item__img {
+	margin-bottom: 14px;
+}
+
+.coffee-item__title {
+	margin-bottom: 14px;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.coffee-item__text {
+	margin-bottom: 14px;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: end;
+}
+
+.coffee-item__price {
+	margin-bottom: 14px;
+	font-weight: 700;
+	font-size: 14px;
+	text-align: end;
+}

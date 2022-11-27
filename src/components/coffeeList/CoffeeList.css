@@ -1,0 +1,13 @@
+.coffee-list {
+	padding: 0 15px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 50px;
+	background-color: #fff;
+}

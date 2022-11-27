@@ -1,0 +1,66 @@
+.filter {
+  max-width: 800px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+}
+
+.filter-label {
+	margin-right: 35px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.filter-input {
+	padding: 6px 36px;
+	border: none;
+	background-color: #fff;
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+.filter-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.filter-btn {
+	padding: 7px 9px;
+  border: none;
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+	cursor: pointer;
+}
+
+.filter-btn:not(:last-child) {
+	margin-right: 5px;
+}
+
+@media (max-width: 415px) {
+	.filter {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	label:not(:last-child) {
+		margin-bottom: 20px;
+	}
+
+	.filter-label {
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.filter-btn:not(:last-child) {
+		margin-right: 15px;
+	}
+}
