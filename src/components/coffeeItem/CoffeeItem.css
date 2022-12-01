@@ -1,4 +1,5 @@
 .coffee-item {
+	display: block;
 	padding: 30px 25px;
 	border: none;
 	background-color: #fff;

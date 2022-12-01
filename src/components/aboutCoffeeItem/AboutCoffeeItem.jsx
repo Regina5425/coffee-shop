@@ -2,6 +2,11 @@ import coffeeImg from "../../assets/img/coffee-3.jpg";
 import beansBlack from "../../assets/img/beans-black.svg";
 import "./AboutCoffeeItem.css";
 
+// эта страница должна рендерится на основе поступающих пропсов,
+// по сути данные должны исходить из тех компонентов где
+// указан конкретный сорт кофе
+// это страница с описанием каждого конретного сорта кофе
+
 const AboutCoffeeItem = () => {
   return (
     <div className='coffee-about-block'>

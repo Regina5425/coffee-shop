@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo.svg";
 import "./AppHeader.css";
 
@@ -10,13 +11,13 @@ const AppHeader = (props) => {
         </div>
         <ul className='header__list'>
           <li className='header__item'>
-            <a href='vk.ru'>Coffee House</a>
+            <Link to='/'>Coffee House</Link>
           </li>
           <li className='header__item'>
-            <a href='vk.ru'>Our coffee</a>
+            <Link to='/ourcoffee'>Our coffee</Link>
           </li>
           <li className='header__item'>
-            <a href='vk.ru'>For your pleasure</a>
+            <Link to='/ourpleasure'>For your pleasure</Link>
           </li>
         </ul>
       </div>

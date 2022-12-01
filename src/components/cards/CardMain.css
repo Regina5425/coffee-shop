@@ -1,4 +1,5 @@
 .card-main {
+	display: block;
 	padding: 22px;
 	max-width: 800px;
 	background-color: #fff;

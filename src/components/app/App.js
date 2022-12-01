@@ -1,24 +1,29 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AppHeader from "./../appHeader/AppHeader";
-import AppFooter from './../appFooter/AppFooter';
+import AppFooter from "./../appFooter/AppFooter";
 import MainPage from "../pages/MainPage";
-// import OurCoffeePage from "../pages/OurCoffeePage";
-// import OurCoffeeItem from "../pages/OurCoffeeItem";
-// import PleasurePage from "../pages/PleasurePage";
+import OurCoffeePage from "../pages/OurCoffeePage";
+import OurCoffeeItem from "../pages/OurCoffeeItem";
+import PleasurePage from "../pages/PleasurePage";
 
 import "./App.css";
 
 function App() {
   return (
-    <div className='app'>
-      <AppHeader />
-      <div className='main'>
-        <MainPage />
-				{/* <OurCoffeePage/> */}
-				{/* <OurCoffeeItem/> */}
-				{/* <PleasurePage/> */}
+    <BrowserRouter>
+      <div className='app'>
+        <AppHeader />
+        <div className='main'>
+          <Routes>
+            <Route path='/' element={<MainPage />} />
+            <Route path='/ourcoffee' element={<OurCoffeePage />} />
+            <Route path='/ourpleasure' element={<PleasurePage />} />
+            <Route path='/coffee' element={<OurCoffeeItem/>} />
+          </Routes>
+        </div>
+        <AppFooter />
       </div>
-			<AppFooter/>
-    </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import beans from '../../assets/img/beans-white.svg';
 import './MainHero.css';
 
@@ -10,7 +11,7 @@ const MainHero = (props) => {
 			</div>
 			<p className="hero-main__descr">We makes every day full of energy and taste </p>
 			<p className="hero-main__descr">Want to try our beans? </p>
-			<a href="vk.ru" className="hero-main__link">More</a>
+			<Link to='/ourcoffee' className="hero-main__link">More</Link>
 		</section>
 	)
 }
