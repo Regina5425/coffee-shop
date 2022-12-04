@@ -1,0 +1,103 @@
+const coffeeDatabase = [
+  {
+    id: 1,
+    title: "AROMA ROMA Smooth Medium/Dark Roast",
+    country: "Salvador",
+    description:
+      "A smooth medium/dark roast with dark, mellow, sharp and nut-like notes. This blend is 3/5 strength. Look forward to the mornings with our smooth, aromatic blend. A sophisticated, full-bodied coffee with a hint of hazelnut that’s perfect for drinking at any time of day. This blend has a long lasting aftertaste and will leave all you home baristas wanting more. Also available in Ground and Beans (standard bag size).",
+    image: "https://aromistico.coffee/img/Aromistico_RomaColour-8074-01.jpeg",
+    price: "6.99$",
+  },
+  {
+    id: 2,
+    title: "AROMA VENEZIA Blonde Light Roast",
+    country: "Vietnam",
+    description:
+      "This blend has a fragrant aroma, an intense crema and delightful tones of honey. It is a blonde roast coffee with sweet berry-like taste. Crafted with coffee from the Highlands of Vietnam, India and tropical Ethiopia. The beauty of Venice and the sweets of an Italian 'Pasticcerias' were the inspiration behind this slow hand roasted coffee.",
+    image: "https://aromistico.coffee/img/VeneziaColourPop-5908-01.jpeg",
+    price: "7.99$",
+  },
+  {
+    id: 3,
+    title: "AROMA NAPOLI Rich Dark Roast",
+    country: "Brazil",
+    description:
+      "This full-bodied coffee has a richly intense toasted flavour. It has a long lasting aftertaste and releases notes of malt and dark chocolate. A rich blend of coffee from the Brazilian coast of Santos, finest Kaapi Royale of India and from the mountains of Central Africa. Imagine sitting by the Neapolitan seaside sipping this coffee under the Italian sunshine.",
+    image: "https://aromistico.coffee/img/Napoli-01.jpg",
+    price: "12.99$",
+  },
+  {
+    id: 4,
+    title: "AROMA FIRENZE Swiss Water DECAF",
+    country: "Honduras",
+    description:
+      "The well-rounded aroma of this decaf offers a caffeine free experience. Crafted with decaf arabica from the rainforest valleys of Honduras and Central America, and with beans grown in the altitudes of Vietnam. It will take you to a terrazza overlooking the skyline of Florence, as the sun sets behind its historical rooftops and chapels.",
+    image: "https://aromistico.coffee/img/Aro_Firenze-4773-01.jpeg",
+    price: "6.59$",
+  },
+  {
+    id: 5,
+    title: "AROMA GARDA Intense Dark Roast",
+    country: "Brazil",
+    description:
+      "With its original bold flavours, in this incredible blend we have incorporated the strength of our passion for coffee, as well as our gratitude to hard working communities of coffee growers all around the world. An intense coffee crafted with superior arabica grown in the altitudes of Peru, blended with coffee beans from Brazil and a light spicy touch from robusta harvested in Cameroon.",
+    image: "https://aromistico.coffee/img/GardaInsidePopUP.jpeg",
+    price: "11.99$",
+  },
+  {
+    id: 6,
+    title: "AROMA VENEZIA Blonde Light Roast",
+    country: "Vietnam",
+    description:
+      "This blend has a fragrant aroma, an intense crema and delightful tones of honey. It is a blonde roast coffee with sweet berry-like taste. Crafted with coffee from the Highlands of Vietnam, India and tropical Ethiopia. The beauty of Venice and the sweets of an Italian 'Pasticcerias' were the inspiration behind this slow hand roasted coffee.",
+    image: "https://aromistico.coffee/img/VeneziaColourPop-5908-01.jpeg",
+    price: "10.99$",
+  },
+  {
+    id: 7,
+    title: "AROMA ROMA Smooth Medium/Dark Roast",
+    country: "Salvador",
+    description:
+      "A smooth medium/dark roast with dark, mellow, sharp and nut-like notes. This blend is 3/5 strength. Look forward to the mornings with our smooth, aromatic blend. A sophisticated, full-bodied coffee with a hint of hazelnut that’s perfect for drinking at any time of day. This blend has a long lasting aftertaste and will leave all you home baristas wanting more. Also available in Ground and Beans (standard bag size).",
+    image: "https://aromistico.coffee/img/Aromistico_RomaColour-8074-01.jpeg",
+    price: "6.99$",
+  },
+  {
+    id: 8,
+    title: "AROMA FIRENZE Swiss Water DECAF",
+    country: "Honduras",
+    description:
+      "The well-rounded aroma of this decaf offers a caffeine free experience. Crafted with decaf arabica from the rainforest valleys of Honduras and Central America, and with beans grown in the altitudes of Vietnam. It will take you to a terrazza overlooking the skyline of Florence, as the sun sets behind its historical rooftops and chapels.",
+    image: "https://aromistico.coffee/img/Aro_Firenze-4773-01.jpeg",
+    price: "7.59$",
+  },
+  {
+    id: 9,
+    title: "AROMA NAPOLI Rich Dark Roast",
+    country: "Brazil",
+    description:
+      "This full-bodied coffee has a richly intense toasted flavour. It has a long lasting aftertaste and releases notes of malt and dark chocolate. A rich blend of coffee from the Brazilian coast of Santos, finest Kaapi Royale of India and from the mountains of Central Africa. Imagine sitting by the Neapolitan seaside sipping this coffee under the Italian sunshine.",
+    image: "https://aromistico.coffee/img/Napoli-01.jpg",
+    price: "13.99$",
+  },
+  {
+    id: 10,
+    title: "AROMA ROMA Smooth Medium/Dark Roast",
+    country: "Salvador",
+    description:
+      "A smooth medium/dark roast with dark, mellow, sharp and nut-like notes. This blend is 3/5 strength. Look forward to the mornings with our smooth, aromatic blend. A sophisticated, full-bodied coffee with a hint of hazelnut that’s perfect for drinking at any time of day. This blend has a long lasting aftertaste and will leave all you home baristas wanting more. Also available in Ground and Beans (standard bag size).",
+    image: "https://aromistico.coffee/img/Aromistico_RomaColour-8074-01.jpeg",
+    price: "14.99$",
+  },
+  {
+    id: 11,
+    title: "AROMA GARDA Intense Dark Roast",
+    country: "Brazil",
+    description:
+      "With its original bold flavours, in this incredible blend we have incorporated the strength of our passion for coffee, as well as our gratitude to hard working communities of coffee growers all around the world. An intense coffee crafted with superior arabica grown in the altitudes of Peru, blended with coffee beans from Brazil and a light spicy touch from robusta harvested in Cameroon.",
+    image: "https://aromistico.coffee/img/GardaInsidePopUP.jpeg",
+    price: "9.89$",
+  },
+];
+
+export default coffeeDatabase;

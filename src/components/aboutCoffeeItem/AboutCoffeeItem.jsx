@@ -19,6 +19,7 @@ const AboutCoffeeItem = () => {
           <div className='coffee-about-img'>
             <img src={beansBlack} alt='coffee beans' />
           </div>
+					<h2 className='coffee-about__subtitle'>AROMA VENEZIA Blonde Light Roast</h2>
           <p className='coffee-about__text'>
             <span>Country: </span>Brazil
           </p>
