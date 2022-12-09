@@ -1,6 +1,7 @@
 .coffee-item {
 	display: block;
 	padding: 30px 25px;
+	width: 240px;
 	border: none;
 	background-color: #fff;
 	border-radius: 8px;
@@ -36,4 +37,16 @@
 	font-weight: 700;
 	font-size: 14px;
 	text-align: end;
+}
+
+@media (max-width: 768px) {
+	.coffee-item {
+		width: 45%;
+	}
+}
+
+@media (max-width: 480px) {
+	.coffee-item {
+		width: 100%;
+	}
 }

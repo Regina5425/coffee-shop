@@ -1,16 +1,16 @@
 import { Link } from 'react-router-dom';
-import coffeeImg from '../../assets/img/coffee-2.jpg';
 import './CoffeeItem.css';
 
-const CoffeeItem = () => {
+const CoffeeItem = (props) => {
+	const {title, price, country, image} = props;
 	return (
 		<Link to='/coffee' className="coffee-item">
 			<div className="coffee-item__img">
-				<img src={coffeeImg} alt="Coffee" />
+				<img src={image} alt="Coffee" />
 			</div>
-			<h2 className="coffee-item__title">AROMISTICO Coffee 1 kg</h2>
-			<p className="coffee-item__text">Brazil</p>
-			<p className="coffee-item__price">6.99$</p>
+			<h2 className="coffee-item__title">{title}</h2>
+			<p className="coffee-item__text">{country}</p>
+			<p className="coffee-item__price">{price}</p>
 		</Link>
 	)
 }

@@ -1,4 +1,4 @@
-const coffeeDatabase = [
+const coffeeDB = [
   {
     id: 1,
     title: "AROMA ROMA Smooth Medium/Dark Roast",
@@ -100,4 +100,4 @@ const coffeeDatabase = [
   },
 ];
 
-export default coffeeDatabase;
+export default coffeeDB;
