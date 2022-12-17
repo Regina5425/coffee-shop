@@ -33,8 +33,6 @@ const CoffeeListContainer = (props) => {
 		}
 	}
 
-  const visibleData = filterCoffee(searchCoffee(initialState.data, term), filter);
-
   const onUpdateSearch = (term) => {
     setTerm(term);
   };
@@ -42,6 +40,8 @@ const CoffeeListContainer = (props) => {
 	const onFilterSelect = (filter) => {
 		setFilter(filter);
 	}
+
+	const visibleData = filterCoffee(searchCoffee(initialState.data, term), filter);
 
   return (
     <Fragment>
