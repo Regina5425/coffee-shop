@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import "./CoffeeItem.css";
 
 const CoffeeItem = (props) => {
-  const { title, price, country, image } = props;
+  const { title, price, country, image, id } = props;
   return (
-    <Link to='/coffee' className='coffee-item'>
+    <Link to={`/coffee/${id}`} className='coffee-item'>
       <div className='coffee-item__img'>
         <img src={image} alt='Coffee' />
       </div>

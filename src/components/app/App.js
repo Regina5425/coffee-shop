@@ -16,10 +16,10 @@ function App() {
         <AppHeader />
         <div className='main'>
           <Routes>
-            <Route path='/' element={<MainPage />} />
+            <Route path='/*' element={<MainPage />} />
             <Route path='/ourcoffee' element={<OurCoffeePage />} />
             <Route path='/ourpleasure' element={<PleasurePage />} />
-            <Route path='/coffee' element={<OurCoffeeItem/>} />
+            <Route path='/coffee/:id' element={<OurCoffeeItem />} />
 						<Route path='*' element={<Page404/>} />
           </Routes>
         </div>

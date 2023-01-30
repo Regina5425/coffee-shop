@@ -7,7 +7,7 @@ import "./AboutCoffeeItem.css";
 // указан конкретный сорт кофе
 // это страница с описанием каждого конретного сорта кофе
 
-const AboutCoffeeItem = () => {
+const AboutCoffeeItem = (props) => {
   return (
     <div className='coffee-about-block'>
       <div className='coffee-about'>

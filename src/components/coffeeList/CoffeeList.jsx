@@ -16,6 +16,7 @@ const CoffeeList = (props) => {
         return (
           <CoffeeItem
             key={item.id}
+						id={item.id}
             title={item.title}
             country={item.country}
             price={item.price}

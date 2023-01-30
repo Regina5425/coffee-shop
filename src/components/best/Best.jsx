@@ -1,8 +1,8 @@
-import CardMain from "../cards/CardMain";
 import coffeeDB from "../coffeeDB";
+import CoffeeItem from "../coffeeItem/CoffeeItem";
 import "./Best.css";
 
-const Best = () => {
+const Best = (props) => {
   return (
     <div className='best'>
       <h2 className='best__title'>Our best</h2>
@@ -11,11 +11,12 @@ const Best = () => {
           .filter((item) => item.id < 4)
           .map((item) => {
             return (
-              <CardMain
+              <CoffeeItem
                 key={item.id}
+                id={item.id}
                 title={item.title}
-                image={item.image}
                 price={item.price}
+                image={item.image}
               />
             );
           })}

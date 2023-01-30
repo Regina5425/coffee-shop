@@ -8,7 +8,7 @@ const MainPage = () => {
     <Fragment>
       <MainHero />
 			<About/>
-			<Best/>
+			<Best />
     </Fragment>
   );
 };
