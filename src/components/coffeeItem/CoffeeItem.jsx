@@ -3,6 +3,7 @@ import "./CoffeeItem.css";
 
 const CoffeeItem = (props) => {
   const { title, price, country, image, id } = props;
+
   return (
     <Link to={`/coffee/${id}`} className='coffee-item'>
       <div className='coffee-item__img'>

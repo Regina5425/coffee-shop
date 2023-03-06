@@ -1,6 +1,6 @@
 import { Fragment } from "react";
-import AboutCoffeeItem from "../aboutCoffeeItem/AboutCoffeeItem";
-import CoffeeHero from "../hero/CoffeeHero";
+import AboutCoffeeItem from "../components/aboutCoffeeItem/AboutCoffeeItem";
+import CoffeeHero from "../components/hero/CoffeeHero";
 
 const OurCoffeeItem = () => {
   return (

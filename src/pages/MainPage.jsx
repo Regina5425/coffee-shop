@@ -1,7 +1,7 @@
 import { Fragment } from "react";
-import About from "../about/About";
-import Best from "../best/Best";
-import MainHero from "../hero/MainHero";
+import About from "../components/about/About";
+import Best from "../components/best/Best";
+import MainHero from "../components/hero/MainHero";
 
 const MainPage = () => {
   return (

@@ -3,7 +3,7 @@ import logo from "../../assets/img/logo.svg";
 import cart from '../../assets/img/cart-1.svg';
 import "./AppHeader.css";
 
-const AppHeader = (props) => {
+const AppHeader = () => {
   return (
     <header className='header'>
       <div className="header-flex">
@@ -16,9 +16,6 @@ const AppHeader = (props) => {
           </li>
           <li className='header__item'>
             <Link to='/ourcoffee'>Our coffee</Link>
-          </li>
-          <li className='header__item'>
-            <Link to='/ourpleasure'>For your pleasure</Link>
           </li>
 					<li className='header__item'>
             <Link to='/cart' className="item-cart">

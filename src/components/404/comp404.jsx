@@ -1,8 +1,8 @@
 import noCoffee from "../../assets/img/no-coffee.jpg";
 import beansBlack from "../../assets/img/beans-black.svg";
-import "./404.css";
+import "./comp404.css";
 
-const Component404 = () => {
+const Comp404 = () => {
   return (
     <div className='error-comp'>
       <div className='error-comp__block'>
@@ -24,4 +24,4 @@ const Component404 = () => {
   );
 };
 
-export default Component404;
+export default Comp404;
