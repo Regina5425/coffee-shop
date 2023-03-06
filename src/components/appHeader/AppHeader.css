@@ -30,3 +30,13 @@
 .header__item:hover {
 	color: #ccc;
 }
+
+.item-cart {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.item-cart p {
+	margin-right: 10px;
+}

@@ -33,6 +33,7 @@ const AboutCoffeeItem = (props) => {
           <p className='coffee-about__price'>
             <span>Price: </span>16.99$
           </p>
+					<button className="coffee-about__btn">Buy</button>
         </div>
       </div>
     </div>
