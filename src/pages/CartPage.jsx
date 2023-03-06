@@ -1,6 +1,6 @@
-// import EmptyCart from "../cart/EmptyCart";
-import Cart from "../cart/Cart";
-import CoffeeHero from "../hero/CoffeeHero";
+// import EmptyCart from "../components/cart/EmptyCart";
+import Cart from "../components/cart/Cart";
+import CoffeeHero from "../components/hero/CoffeeHero";
 
 const CartPage = () => {
   return (

@@ -1,12 +1,12 @@
 import { Fragment } from "react";
-import CoffeeHero from "../hero/CoffeeHero";
-import Component404 from './../404/404';
+import CoffeeHero from "../components/hero/CoffeeHero";
+import Comp404 from '../components/404/comp404';
 
 const Page404 = () => {
   return (
     <Fragment>
       <CoffeeHero>Error Page</CoffeeHero>
-			<Component404/>
+			<Comp404/>
     </Fragment>
   );
 };

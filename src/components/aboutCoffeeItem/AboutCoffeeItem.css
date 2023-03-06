@@ -102,6 +102,13 @@
 	background-color: rgba(0, 0, 0, 0.8);
 }
 
+.coffee-about__loader {
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
 @media (max-width: 415px) {
   .coffee-about {
     display: block;

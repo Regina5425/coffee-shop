@@ -3,7 +3,7 @@ import logo from "../../assets/img/logo-footer.svg";
 import beansBlack from "../../assets/img/beans-black.svg";
 import "./AppFooter.css";
 
-const AppFooter = (props) => {
+const AppFooter = () => {
   return (
     <footer className='footer'>
       <div className='footer-flex'>
@@ -16,9 +16,6 @@ const AppFooter = (props) => {
           </li>
           <li className='footer__item'>
             <Link to='/ourcoffee'>Our coffee</Link>
-          </li>
-          <li className='footer__item'>
-            <Link to='/ourpleasure'>For your pleasure</Link>
           </li>
         </ul>
       </div>
