@@ -7,8 +7,8 @@
 
   <p align="center">
     Coffee shop application
-		<br/>
-		<a href="#">View Demo</a>
+	<br/>
+	<a href="https://coffee-shop-two-mu.vercel.app/">View Demo</a>
   </p>
 </div>
 
