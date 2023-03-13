@@ -18,14 +18,14 @@
 
 <div align="center">
   <span>
-    <img src="./src/assets/img/demo.jpg" alt="demo image" width="700" height="500">
+    <img src="./src/assets/img/demo.jpg" alt="demo image" width="100%" height="400">
    </span>
 </div>
 
 The application consists of the main page, the coffee shop page, and the cart page.
 
 Features: 
-* You can filter coffeу by country of origin or search by title;
+* You can filter coffee by country of origin or search by title;
 * You can add coffee to the cart;
 * A chosen coffee are displayed at the cart page, you can add more, remove coffee from the cart.
 
