@@ -5,7 +5,7 @@ import './Cart.css';
 const EmptyCart = () => {
   return (
     <div className='cart cart--empty'>
-      <h2 className="cart__title">Cart is empty now <icon>😟</icon></h2>
+      <h2 className="cart__title">Cart is empty now</h2>
       <div className="cart__img">
         <img src={beansBlack} alt='coffee beans' />
       </div>
@@ -14,7 +14,7 @@ const EmptyCart = () => {
         <br />
       </p>
       <Link to='/ourcoffee'>
-        <span className="cart__btn">Buy coffee</span>
+        <span className="cart__btn">Go back</span>
       </Link>
     </div>
   );

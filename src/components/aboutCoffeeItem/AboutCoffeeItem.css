@@ -88,18 +88,16 @@
 .coffee-about__btn {
 	align-self: flex-start;
 	margin-top: 16px;
-	padding: 8px 40px;
-	border: 1px solid #000;
-	border-radius: 3px;
-	background-color: transparent;
 	color: #000;
-	transition: all 0.3s ease-in-out;
+	padding: 15px 25px;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	border-radius: 20px;
+	transition: all 0.2s;
 	cursor: pointer;
 }
 
 .coffee-about__btn:hover {
-	color: #fff;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: #ccc;
 }
 
 .coffee-about__loader {

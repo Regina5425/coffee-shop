@@ -4,4 +4,4 @@
 
 В разработке...
 
-Технологии: ReactJS, JavaScript, react-router-dom
+Технологии: ReactJS, JavaScript, react-router-dom, redux toolkit

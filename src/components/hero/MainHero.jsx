@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import beans from '../../assets/img/beans-white.svg';
 import './MainHero.css';
 
-const MainHero = (props) => {
+const MainHero = () => {
 	return (
 		<section className="hero-main">
 			<h1 className="hero-main__title">Everything You Love About Coffee</h1>

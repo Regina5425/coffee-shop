@@ -47,3 +47,9 @@ img {
 	max-height: 100%;
 	object-fit: cover;
 }
+
+button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}

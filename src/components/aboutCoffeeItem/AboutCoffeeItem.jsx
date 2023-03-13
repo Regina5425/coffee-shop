@@ -5,6 +5,7 @@ import beansBlack from "../../assets/img/beans-black.svg";
 import "./AboutCoffeeItem.css";
 import { fetchCoffeeById } from "../../redux/slices/coffeeSlice";
 import Loader from "../loader/Loader";
+import { addItem } from "../../redux/slices/cartSlice";
 
 const AboutCoffeeItem = () => {
   const { coffeeId } = useParams();
@@ -13,6 +14,17 @@ const AboutCoffeeItem = () => {
   const oneCoffee = useSelector((state) => state.coffee.oneCoffee);
   const coffeeStatus = useSelector((state) => state.coffee.coffeeLoadingStatus);
 
+  const buyCoffee = () => {
+    const item = {
+      id: oneCoffee.id,
+      title: oneCoffee.title,
+      price: oneCoffee.price,
+      image: oneCoffee.image,
+    };
+
+    dispatch(addItem(item));
+  };
+
   useEffect(() => {
     dispatch(fetchCoffeeById(coffeeId));
   }, [coffeeId, dispatch]);
@@ -20,9 +32,9 @@ const AboutCoffeeItem = () => {
   return (
     <>
       {coffeeStatus === "loading" ? (
-        <div className="coffee-about__loader">
-					<Loader />
-				</div>
+        <div className='coffee-about__loader'>
+          <Loader />
+        </div>
       ) : (
         <div className='coffee-about-block'>
           <div className='coffee-about'>
@@ -45,9 +57,11 @@ const AboutCoffeeItem = () => {
               </p>
               <p className='coffee-about__price'>
                 <span>Price: </span>
-                {oneCoffee.price}
+                {oneCoffee.price}$
               </p>
-              <button className='coffee-about__btn'>Buy</button>
+              <button onClick={buyCoffee} className='coffee-about__btn'>
+                Buy
+              </button>
             </div>
           </div>
         </div>

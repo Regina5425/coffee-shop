@@ -104,6 +104,11 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
+	transition: all 0.2s;
+}
+
+.cart__clear:hover {
+	color: rgba(0, 0, 0, 0.6);
 }
 
 .cart__title img,
@@ -119,18 +124,16 @@
   align-self: flex-start;
   display: inline-block;
   margin-top: 16px;
-  padding: 8px 40px;
-  border: 1px solid #000;
-  border-radius: 3px;
-  background-color: transparent;
   color: #000;
-  transition: all 0.3s ease-in-out;
   cursor: pointer;
+	padding: 15px 25px;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	border-radius: 20px;
+	transition: all 0.2s;
 }
 
 .cart__btn:hover {
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #ccc;
 }
 
 .cart__bottom {
@@ -150,4 +153,21 @@
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
+}
+
+.cart__back,
+.cart__pay {
+	padding: 15px 25px;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	border-radius: 20px;
+	transition: all 0.2s;
+}
+
+.cart__back span {
+	margin-left: 15px;
+}
+
+.cart__back:hover,
+.cart__pay:hover {
+	background-color: #ccc;
 }

@@ -11,7 +11,7 @@ const CoffeeItem = (props) => {
       </div>
       <h2 className='coffee-item__title'>{title}</h2>
       <p className='coffee-item__text'>{country}</p>
-      <p className='coffee-item__price'>{price}</p>
+      <p className='coffee-item__price'>{price}$</p>
     </Link>
   );
 };

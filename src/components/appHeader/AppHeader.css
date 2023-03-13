@@ -40,3 +40,7 @@
 .item-cart p {
 	margin-right: 10px;
 }
+
+.item-cart sup {
+	font-size: 12px;
+}

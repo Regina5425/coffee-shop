@@ -1,7 +1,7 @@
 import beansBlack from "../../assets/img/beans-black.svg";
 import './About.css';
 
-const About = (props) => {
+const About = () => {
   return (
     <section className='about'>
       <h2 className='about__title'>About Us</h2>

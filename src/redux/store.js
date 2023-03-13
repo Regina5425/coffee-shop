@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 import coffeeReducer from "./slices/coffeeSlice";
+import cartReducer from "./slices/cartSlice";
 
 export const store = configureStore({
   reducer: {
     coffee: coffeeReducer,
+    cart: cartReducer,
   },
-  middleware: (getDefaultMiddleware) => getDefaultMiddleware(),
-  devTools: process.env.NODE_ENV !== "production",
 });
