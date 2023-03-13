@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import beansBlack from "../../assets/img/beans-black.svg";
-import "./AboutCoffeeItem.css";
 import { fetchCoffeeById } from "../../redux/slices/coffeeSlice";
-import Loader from "../loader/Loader";
 import { addItem } from "../../redux/slices/cartSlice";
+import Loader from "../loader/Loader";
+import "./AboutCoffeeItem.css";
 
 const AboutCoffeeItem = () => {
   const { coffeeId } = useParams();

@@ -5,19 +5,19 @@ import clear from "../../assets/img/clear.svg";
 import arrow from "../../assets/img/arrow.svg";
 import EmptyCart from "./EmptyCart";
 import CartItem from "./CartItem";
-import "./Cart.css";
 import { clearCart } from "../../redux/slices/cartSlice";
+import "./Cart.css";
 
 const Cart = () => {
   const dispatch = useDispatch();
   const { items, totalPrice } = useSelector((state) => state.cart);
   const totalCount = items.reduce((sum, item) => sum + item.count, 0);
 
-	const onClearClick = () => {
-		if (window.confirm("Are you sure to delete all products?", "")) {
+  const onClearClick = () => {
+    if (window.confirm("Are you sure to delete all products?", "")) {
       dispatch(clearCart());
     }
-	}
+  };
 
   if (!totalCount) {
     return <EmptyCart />;

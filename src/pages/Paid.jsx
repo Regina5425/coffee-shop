@@ -8,7 +8,7 @@ const PaidPage = () => {
     <Fragment>
       <CoffeeHero>Thank you!</CoffeeHero>
       <section className='about'>
-        <h2 className='about__title'>Thanks for buing our coffee</h2>
+        <h2 className='about__title'>Thanks for buying our coffee</h2>
         <div className='about__img'>
           <img src={beansBlack} alt='coffee beans' />
         </div>

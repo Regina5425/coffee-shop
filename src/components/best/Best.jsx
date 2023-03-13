@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchCoffee } from "../../redux/slices/coffeeSlice";
 import CoffeeItem from "../coffeeItem/CoffeeItem";
-import "./Best.css";
 import Loader from "./../loader/Loader";
+import "./Best.css";
 
 const Best = () => {
   const dispatch = useDispatch();
